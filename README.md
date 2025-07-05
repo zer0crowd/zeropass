@@ -21,12 +21,12 @@ Herramienta modular en Python para generación de contraseñas seguras, organiza
    cd zeropass
 Instala dependencias:
 
-bash
+```bash
 pip install -r requirements.txt
 🛠 Uso
 Ejecuta el menú principal:
 
-bash
+```bash
 python main.py
 Opciones disponibles:
 Generar contraseña segura
