@@ -49,5 +49,5 @@ Verifica que no haya espacios entre los ``` y el contenido
 Si persiste el problema, edita el README directamente en GitHub:
 
 
-MIT License © 2023 zer0crowd
+MIT License © 2025 zer0crowd
 
