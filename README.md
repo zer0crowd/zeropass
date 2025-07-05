@@ -22,12 +22,12 @@ Herramienta modular en Python para generación de contraseñas seguras, organiza
 Instala dependencias:
 
 ```bash
-pip install -r requirements.txt
+pip install -r requirements.txt```
 🛠 Uso
 Ejecuta el menú principal:
 
 ```bash
-python main.py
+python main.py```
 Opciones disponibles:
 Generar contraseña segura
 
