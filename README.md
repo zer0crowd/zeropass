@@ -10,9 +10,9 @@ Ejecuta estos comandos en tu terminal:
 ```bash
 git clone https://github.com/zer0crowd/zeropass.git
 cd zeropass
-pip install -r requirements.txt
+pip install -r requirements.txt```
 🛠 Uso
-Inicia el programa con:
+Inicia el programa con
 
 
 python main.py
@@ -54,19 +54,8 @@ Haz clic en "Edit README"
 
 Usa el botón ``` para insertar bloques de código
 
-text
-
 ### ¿Por qué funciona mejor?
 - Elimina anidación de bloques de código
 - Usa formato alternado (texto/código)
 - Incluye ejemplos reales de ejecución
 - Es compatible con el renderizado de GitHub
-
-Si necesitas mostrar múltiples comandos en secuencia, usa:
-
-
-# Paso 1
-comando_1
-
-# Paso 2
-comando_2
