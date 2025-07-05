@@ -44,7 +44,7 @@ Usa un solo bloque de código por sección
 Alterna entre texto normal y bloques de código
 
 Verifica que no haya espacios entre los ``` y el contenido
-markdown
+
 🔄 Solución definitiva
 Si persiste el problema, edita el README directamente en GitHub:
 
