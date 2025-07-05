@@ -4,59 +4,69 @@ markdown
 ![Python](https://img.shields.io/badge/Python-3.8+-blue?logo=python)
 ![License](https://img.shields.io/badge/License-MIT-green)
 
-Herramienta modular en Python para generación de contraseñas seguras, organización de archivos y web scraping ético.
-
-## 🚀 Características
-- 🔑 **Generador de contraseñas seguras** (personalizable)
-- 📂 **Organizador automático de archivos** por extensión
-- 🌐 **Web scraper ético** (extrae títulos y enlaces)
-- 🖥 **Interfaz de menú interactivo**
-
 ## 📦 Instalación
+Ejecuta estos comandos en tu terminal:
 
 ```bash
 git clone https://github.com/zer0crowd/zeropass.git
 cd zeropass
 pip install -r requirements.txt
-🛠 Uso básico
+🛠 Uso
+Inicia el programa con:
+
 bash
 python main.py
-🖥 Menú interactivo
+Ejemplos de uso
+1. Generar contraseña:
+
+bash
+>>> Seleccione opción: 1
+>>> Longitud: 12
+🔑 Contraseña: Kx8#jD2!qW9$
+2. Organizar archivos:
+
+bash
+>>> Seleccione opción: 2
+>>> Ruta: ~/Descargas
+✅ Se crearon carpetas: PDF, JPG, DOCX
+🧩 Estructura del código
 text
-1. Generar contraseña segura
-2. Organizar archivos
-3. Extraer datos web (scraping ético)
-4. Salir
-Ejemplo de generación de contraseña:
-bash
-Seleccione opción: 1
-Longitud de contraseña: 16
-🔑 Contraseña generada: Xh7#kL2!qW9$pR4@
-Ejemplo de organización de archivos:
-bash
-Seleccione opción: 2
-Ruta a organizar: ~/Descargas
-✅ ¡Archivos organizados en subcarpetas por tipo!
-🧩 Estructura del proyecto
-bash
-.
-├── main.py
-├── password_generator.py
-├── file_organizer.py
-├── web_scraper.py
-├── requirements.txt
-└── README.md
-⚠️ Requisitos
-bash
-Python 3.8+
-Sistema operativo: Windows/macOS/Linux
-🤝 Contribuir
-bash
-# 1. Haz fork del proyecto
-# 2. Crea tu rama (git checkout -b feature/nueva-funcion)
-# 3. Haz commit (git commit -am 'Añade nueva función')
-# 4. Haz push (git push origin feature/nueva-funcion)
-# 5. Abre un Pull Request
-📜 Licencia
-bash
-MIT License © 2023 zer0crowd
+zeropass/
+├── main.py                # Menú principal
+├── password_generator.py  # Genera contraseñas
+├── file_organizer.py      # Clasifica archivos
+└── web_scraper.py         # Scraper ético
+📌 Recomendaciones
+Si ves todo en una sola caja:
+
+Usa un solo bloque de código por sección
+
+Alterna entre texto normal y bloques de código
+
+Verifica que no haya espacios entre los ``` y el contenido
+
+🔄 Solución definitiva
+Si persiste el problema, edita el README directamente en GitHub:
+
+Ve a tu repositorio
+
+Haz clic en "Edit README"
+
+Usa el botón ``` para insertar bloques de código
+
+text
+
+### ¿Por qué funciona mejor?
+- Elimina anidación de bloques de código
+- Usa formato alternado (texto/código)
+- Incluye ejemplos reales de ejecución
+- Es compatible con el renderizado de GitHub
+
+Si necesitas mostrar múltiples comandos en secuencia, usa:
+
+```bash
+# Paso 1
+comando_1
+
+# Paso 2
+comando_2
