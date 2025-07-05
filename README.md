@@ -48,14 +48,6 @@ Verifica que no haya espacios entre los ``` y el contenido
 🔄 Solución definitiva
 Si persiste el problema, edita el README directamente en GitHub:
 
-Ve a tu repositorio
 
-Haz clic en "Edit README"
+MIT License © 2023 zer0crowd
 
-Usa el botón ``` para insertar bloques de código
-
-### ¿Por qué funciona mejor?
-- Elimina anidación de bloques de código
-- Usa formato alternado (texto/código)
-- Incluye ejemplos reales de ejecución
-- Es compatible con el renderizado de GitHub
