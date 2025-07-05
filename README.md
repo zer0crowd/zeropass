@@ -14,7 +14,7 @@ pip install -r requirements.txt
 🛠 Uso
 Inicia el programa con:
 
-bash
+
 python main.py
 Ejemplos de uso
 1. Generar contraseña:
@@ -25,7 +25,7 @@ bash
 🔑 Contraseña: Kx8#jD2!qW9$
 2. Organizar archivos:
 
-bash
+
 >>> Seleccione opción: 2
 >>> Ruta: ~/Descargas
 ✅ Se crearon carpetas: PDF, JPG, DOCX
@@ -64,7 +64,7 @@ text
 
 Si necesitas mostrar múltiples comandos en secuencia, usa:
 
-```bash
+
 # Paso 1
 comando_1
 
