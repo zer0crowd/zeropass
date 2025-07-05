@@ -7,7 +7,6 @@ markdown
 Herramienta modular en Python para generación de contraseñas seguras, organización de archivos y web scraping ético.
 
 ## 🚀 Características
-
 - 🔑 **Generador de contraseñas seguras** (personalizable)
 - 📂 **Organizador automático de archivos** por extensión
 - 🌐 **Web scraper ético** (extrae títulos y enlaces)
@@ -15,52 +14,49 @@ Herramienta modular en Python para generación de contraseñas seguras, organiza
 
 ## 📦 Instalación
 
-1. Clona el repositorio:
-   ```bash
-   git clone https://github.com/zer0crowd/zeropass.git
-   cd zeropass
-Instala dependencias:
-
 ```bash
-pip install -r requirements.txt```
-🛠 Uso
-Ejecuta el menú principal:
-
-```bash
-python main.py```
-Opciones disponibles:
-Generar contraseña segura
-
-Longitud personalizable
-
-Incluye mayúsculas, números y símbolos
-
-Organizar archivos
-
-Clasifica automáticamente por tipo (.pdf, .jpg, etc.)
-
-Ejemplo: ./docs/ → ./pdf/documento.pdf
-
-Web scraping (solo para fines educativos)
-
-Extrae título y primeros 5 enlaces de una página
-
-🧩 Estructura del proyecto
+git clone https://github.com/zer0crowd/zeropass.git
+cd zeropass
+pip install -r requirements.txt
+🛠 Uso básico
+bash
+python main.py
+🖥 Menú interactivo
 text
-/zeropass
-├── main.py                # Menú principal
-├── password_generator.py  # Generador de contraseñas
-├── file_organizer.py      # Organizador de archivos
-├── web_scraper.py         # Scraper ético
-├── requirements.txt       # Dependencias
-└── README.md              # Este archivo
-⚠️ Limitaciones
-El web scraper no funciona en páginas con JavaScript dinámico
-
-Para organizar archivos requiere permisos de escritura
-
-🤝 Contribución
-Pull requests son bienvenidos. Para cambios mayores, abre primero un issue.
-
+1. Generar contraseña segura
+2. Organizar archivos
+3. Extraer datos web (scraping ético)
+4. Salir
+Ejemplo de generación de contraseña:
+bash
+Seleccione opción: 1
+Longitud de contraseña: 16
+🔑 Contraseña generada: Xh7#kL2!qW9$pR4@
+Ejemplo de organización de archivos:
+bash
+Seleccione opción: 2
+Ruta a organizar: ~/Descargas
+✅ ¡Archivos organizados en subcarpetas por tipo!
+🧩 Estructura del proyecto
+bash
+.
+├── main.py
+├── password_generator.py
+├── file_organizer.py
+├── web_scraper.py
+├── requirements.txt
+└── README.md
+⚠️ Requisitos
+bash
+Python 3.8+
+Sistema operativo: Windows/macOS/Linux
+🤝 Contribuir
+bash
+# 1. Haz fork del proyecto
+# 2. Crea tu rama (git checkout -b feature/nueva-funcion)
+# 3. Haz commit (git commit -am 'Añade nueva función')
+# 4. Haz push (git push origin feature/nueva-funcion)
+# 5. Abre un Pull Request
 📜 Licencia
-MIT © zer0crowd
+bash
+MIT License © 2023 zer0crowd
